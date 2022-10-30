@@ -207,6 +207,7 @@ check_os_comp() {
     ubuntu)
         [ "$OS_VER_MAJOR" == "18" ] && SUPPORTED=true
         [ "$OS_VER_MAJOR" == "20" ] && SUPPORTED=true
+        [ "$OS_VER_MAJOR" == "22" ] && SUPPORTED=true
         ;;
     *)
         SUPPORTED=false
